@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--Change this out later with the CSS for more accurate color-->
-<html lang="en" style="background-color:tan;">
+<html lang="en">
 
 <head>
     <!--Forgot what this code from lines 7-9 is for Ask Noah later-->
@@ -10,25 +10,14 @@
 
     <!--This is for text that appears on the tab-->
 
-    <title>Welcome to The Menagerie v2</title>
+    <title>Welcome to The Menagerie</title>
 
     <link rel="shortcut icon" type="images/ico" href="images/favicon.ico">
-    
-    <style>
-        #contact {width: 50vw;
-         display: inline;
-        }
-        
-           #videos {width: 50vw;
-         display: inline;
-        }
-        h1 {text-align: center;}
-        h2 {text-align: center;}
-        body {text-align: center;}
-        </style>
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
-<body>
+
 
 <header>
 
@@ -36,21 +25,26 @@
         Welcome to The Menagerie 
     </h1>
     <!--Image for UI Buttons-->
+
+    <div id=buttons>
     <a href="videos.html">
 
-        <img src="images/videobutton.jpg" alt="Video" id="videos" > 
+        <img src="images/videobutton.jpg" alt="Video" width="600" > 
 
     </img> </a>
 
-    <h2>
-        Video's
-    </h2>
     <!--Image for UI Buttons and Link to Page "Contact"-->
-        <a href="contact.html"> 
+        <a href="contact3.html"> 
 
-        <img src="images/contactbutton.jpg" alt="Contact" id="contact" > 
+        <img src="images/contactbutton.jpg" alt="Contact" width="600" > 
 
     </img> </a>
+    
+    <a href="about.html"> 
+
+        <img src="images/aboutbutton.jpg" alt="About" width="600" > 
+
+    </img> </a> </div>
 
     
     <nav></nav>
@@ -58,19 +52,22 @@
 </header> 
 
 <main>
-
+<body>
 </main>
 <!--Art work in Gallery frames for the front Page-->
-<img src="images/sparkyframe.png" alt="Sparky" width="500" > </img>
-
-<img src="images/cityframe.png" alt="City" width="500" > </img>
-
-<img src="images/koiframe.png" alt="Koi" width="500" > </img>
-
-<img src="images/cloneframe.png" alt="Clone" width="500" > </img>
-
-<img src="images/stilllifeframe.png" alt="Still Life" width="500" > </img>
-
+<div class="row">
+    <div class="column">
+        <img src="images/sparkyframe.png" alt="Sparky" width="500" > </img>
+        <img src="images/cityframe.png" alt="City" width="500" > </img>
+        <img src="images/koiframe.png" alt="Koi" width="500" > </img>
+        <img src="images/stilllifeframe.png" alt="Still Life" width="500" > </img>
+        <img src="images/cloneframe.png" alt="Clone" width="500" > </img>
+        <img src="images/slug.png" alt="Slug" width="500" > </img>
+        <img src="images/lamp.jpg" alt="Lamp" width="500" > </img>
+        <img src="images/putin.png" alt="Putin" width="500" > </img>
+        <img src="images/sunset.png" alt="Sunset" width="500" > </img>
+    </div>
+</div>
 <footer></footer>
 
 </body>
