@@ -1,0 +1,60 @@
+body {
+    background-color: tan;
+    margin: 0px;
+    padding: 50px 60px;
+}
+h1 {
+color: #004E89;
+font-family: 'Agency FB';
+font-size: 100px;
+font-weight: 400;
+}
+h2 {
+    text-align: center;
+    color: #004E89;
+    font-family: 'Agency FB';
+    font-size: 100px;
+    font-weight: 400;
+}
+body {
+    text-align: center;
+}
+iframe {
+    text-align: center;
+}
+
+#form-group {
+    width: 50vh;
+    padding: 25px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding:  15px;
+  }
+  
+  
+  .column {
+    flex: 50%;
+    padding:  15px;
+  }
+  
+  .column img {
+    margin-top: 15px;
+    vertical-align: middle;
+  }
+  #buttons {
+    background-color: rgb(105, 92, 74);
+    margin: 0px;
+    padding: 50px 60px;
+    }
+
+    #boxes {
+        background-color: rgb(141, 120, 94);
+        width: 400px;
+        padding: 25px;
+        margin: auto;
+      }
+  
